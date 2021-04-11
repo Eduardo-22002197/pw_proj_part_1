@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(1, 2, 88);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*************** NAV BAR ***************/
+.nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;                              /* a flex container expands items to fill available free space or shrinks them to prevent overflow. */
+    justify-content: space-around;              /* attribute used to position the elements. every item will have space before, between and after them. */
+    align-items: center;                        /* aligns items at the center of the container */
+    min-height: 10.5vh;            
+    text-transform: uppercase;
+    font-weight: 500;                           /* Montserrat font only goes to weight: 500 before getting bold*/
+    z-index: 2;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;                                 /* nav bar will occupy 30% of the space where it's inserted in */
+}
+
+.nav-links2 {
+    display: none;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.nav-links li {
+    list-style: none;                           /* removes any list style, like the dots */
+    padding: 7px 7px 7px 8px;
+    border-radius: 5px;
+    transition: .8s ease-out background-color;
+}
+
+.nav-links li:hover {
+    background-color: rgb(118, 120, 203);
+}
+/*************** NAV BAR ***************/
+
+
+/***************** MAIN ****************/
+main {
+    margin-top: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sect1, .sect2 {
+    margin-right: 50px;
+}
+
+.img1, .img2, .img3 {
+    animation: fillLetters 1s ease-in-out forwards 5.2s;
+}
+
+.img1 path:nth-child(1) {                                       /* Landing Page Image 1 (WEB) */ 
+    stroke-dasharray: 407.61456298828125;
+    stroke-dashoffset: 407.61456298828125;
+    animation: lineAnimation 2s ease-out forwards;
+}
+
+.img1 path:nth-child(2) {
+    stroke-dasharray: 282.6725769042969;
+    stroke-dashoffset: 282.6725769042969;
+    animation: lineAnimation 2s ease-out forwards 0.2s;
+}
+
+.img1 path:nth-child(3) {
+    stroke-dasharray: 357.25970458984375;
+    stroke-dashoffset: 357.25970458984375;
+    animation: lineAnimation 2s ease-out forwards 0.4s;
+}
+
+.img2 path:nth-child(1) {                                       /* Landing Page Image 2 (NODE) */ 
+    stroke-dasharray: 306.35498046875;
+    stroke-dashoffset: 306.35498046875;
+    animation: lineAnimation 2s ease-out forwards 0.6s;
+}
+
+.img2 path:nth-child(2) {
+    stroke-dasharray: 297.7874755859375;
+    stroke-dashoffset: 297.7874755859375;
+    animation: lineAnimation 2s ease-out forwards 0.8s;
+}
+
+.img2 path:nth-child(3) {
+    stroke-dasharray: 313.24169921875;
+    stroke-dashoffset: 313.24169921875;
+    animation: lineAnimation 2s ease-out forwards 1s;
+}
+
+.img2 path:nth-child(4) {
+    stroke-dasharray: 282.6719665527344;
+    stroke-dashoffset: 282.6719665527344;
+    animation: lineAnimation 2s ease-out forwards 1.2s;
+}
+
+.img3 path:nth-child(1) {                                       /* Landing Page Image 3 (DEVELOPMENT) */ 
+    stroke-dasharray: 313.24169921875;
+    stroke-dashoffset: 313.24169921875;
+    animation: lineAnimation 2s ease-out forwards 1.4s;
+}
+
+.img3 path:nth-child(2) {                                       
+    stroke-dasharray: 282.6719970703125;
+    stroke-dashoffset: 282.6719970703125;
+    animation: lineAnimation 2s ease-out forwards 1.6s;
+}
+
+.img3 path:nth-child(3) {                                       
+    stroke-dasharray: 222.39674377441406;
+    stroke-dashoffset: 222.39674377441406;
+    animation: lineAnimation 2s ease-out forwards 1.8s;
+}
+
+.img3 path:nth-child(4) {                                       
+    stroke-dasharray: 282.6719665527344;
+    stroke-dashoffset: 282.6719665527344;
+    animation: lineAnimation 2s ease-out forwards 2s;
+}
+
+.img3 path:nth-child(5) {                                       
+    stroke-dasharray: 167.9040069580078;
+    stroke-dashoffset: 167.9040069580078;
+    animation: lineAnimation 2s ease-out forwards 2.2s;
+}
+
+.img3 path:nth-child(6) {                                       
+    stroke-dasharray: 297.788330078125;
+    stroke-dashoffset: 297.788330078125;
+    animation: lineAnimation 2s ease-out forwards 2.4s;
+}
+
+.img3 path:nth-child(7) {                                       
+    stroke-dasharray: 262.11041259765625;
+    stroke-dashoffset: 262.11041259765625;
+    animation: lineAnimation 2s ease-out forwards 2.6s;
+}
+
+.img3 path:nth-child(8) {                                       
+    stroke-dasharray: 367.6080627441406;
+    stroke-dashoffset: 367.6080627441406;
+    animation: lineAnimation 2s ease-out forwards 2.8s;
+}
+
+.img3 path:nth-child(9) {                                       
+    stroke-dasharray: 282.6719970703125;
+    stroke-dashoffset: 282.6719970703125;
+    animation: lineAnimation 2s ease-out forwards 3s;
+}
+
+.img3 path:nth-child(10) {                                       
+    stroke-dasharray: 306.3549499511719;
+    stroke-dashoffset: 306.3549499511719;
+    animation: lineAnimation 2s ease-out forwards 3.2s;
+}
+
+.img3 path:nth-child(11) {                                       
+    stroke-dasharray: 182.30389404296875;
+    stroke-dashoffset: 182.30389404296875;
+    animation: lineAnimation 2s ease-out forwards 3.4s;
+}
+
+@media screen and (max-width: 1160px) {
+    .nav-links {
+        width: 50%;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    section {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links2 {
+        display: flex;    
+    }
+}
+
+@media screen and (max-width: 760px) {
+    main {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .img1, .img2, .img3 {
+        margin-left: 20px;
+        width: 70%;
+        height: 70%;
+    }
+}
+/***************** MAIN ****************/
+
+
+/*************** ANIMATION *************/
+@keyframes lineAnimation {                      
+    to { stroke-dashoffset: 0px; }              /* Animation used to fill the lines in all stroke animations */
+}
+
+@keyframes fillLetters {                        /* Animation used to fill the letters of the main paragraph on the landing page */
+    from { fill: transparent }
+    to { fill: rgb(118, 120, 203); }
+}
+/*************** ANIMATION *************/
