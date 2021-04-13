@@ -17,6 +17,10 @@ main {
     align-items: center;
     justify-content: center;
 }
+
+.page-fade {
+    animation: fade 1s 1 ease-in-out;
+}
 /************** MAIN BODY **************/
 
 
@@ -254,51 +258,6 @@ main {
 /************* LANDING PAGE ************/
 
 
-/************** ABOUT PAGE *************/
-.img4 path:nth-child(1) {                                       /* About Page Image (ABOUT) */ 
-    stroke-dasharray: 268.34405517578125;
-    stroke-dashoffset: 268.34405517578125;
-    animation: lineAnimation 2s ease-out forwards;
-}
-
-.img4 path:nth-child(2) {                                       
-    stroke-dasharray: 357.258544921875;
-    stroke-dashoffset: 357.258544921875;
-    animation: lineAnimation 2s ease-out forwards 0.2s;
-}
-
-.img4 path:nth-child(3) {                                       
-    stroke-dasharray: 297.7883605957031;
-    stroke-dashoffset: 297.7883605957031;
-    animation: lineAnimation 2s ease-out forwards 0.4s;
-}
-
-.img4 path:nth-child(4) {                                        
-    stroke-dasharray: 247.62527465820312;
-    stroke-dashoffset: 247.62527465820312;
-    animation: lineAnimation 2s ease-out forwards 0.6s;
-}
-
-.img4 path:nth-child(5) {                                       
-    stroke-dasharray: 182.30401611328125;
-    stroke-dashoffset: 182.30401611328125;
-    animation: lineAnimation 2s ease-out forwards 0.8s;
-}
-
-.img4 {
-    animation: fillLetters 1s ease-in-out forwards 2.5s;
-}
-
-@media screen and (max-width: 760px) {
-    .img4 {
-        margin-left: 20px;
-        width: 67%;
-        height: 67%;
-    }
-}
-/************** ABOUT PAGE *************/
-
-
 /************* HISTORY PAGE ************/
 .img5 path:nth-child(1) {                                       /* History Page Image (HISTORY) */ 
     stroke-dasharray: 276.4800109863281;
@@ -514,7 +473,19 @@ main {
 }
 
 .img6 {
+    margin-bottom: 30px;
     animation: fillLetters 1s ease-in-out forwards 3.1s;
+}
+
+.location-map {
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 955px) {
+    .location-map {
+        max-width: 70%;
+        max-height: 400px;
+    }
 }
 
 @media screen and (max-width: 760px) {
@@ -522,7 +493,7 @@ main {
         margin-left: 20px;
         width: 75%;
         height: 75%;
-    }
+    }    
 }
 /************ LOCATION PAGE ************/
 
@@ -584,8 +555,55 @@ main {
 /************ CONTACT PAGE *************/
 
 
-/*************** FOOTER ****************/
+/************** ABOUT PAGE *************/
+.img4 path:nth-child(1) {                                       /* About Page Image (ABOUT) */ 
+    stroke-dasharray: 268.34405517578125;
+    stroke-dashoffset: 268.34405517578125;
+    animation: lineAnimation 2s ease-out forwards;
+}
 
+.img4 path:nth-child(2) {                                       
+    stroke-dasharray: 357.258544921875;
+    stroke-dashoffset: 357.258544921875;
+    animation: lineAnimation 2s ease-out forwards 0.2s;
+}
+
+.img4 path:nth-child(3) {                                       
+    stroke-dasharray: 297.7883605957031;
+    stroke-dashoffset: 297.7883605957031;
+    animation: lineAnimation 2s ease-out forwards 0.4s;
+}
+
+.img4 path:nth-child(4) {                                        
+    stroke-dasharray: 247.62527465820312;
+    stroke-dashoffset: 247.62527465820312;
+    animation: lineAnimation 2s ease-out forwards 0.6s;
+}
+
+.img4 path:nth-child(5) {                                       
+    stroke-dasharray: 182.30401611328125;
+    stroke-dashoffset: 182.30401611328125;
+    animation: lineAnimation 2s ease-out forwards 0.8s;
+}
+
+.img4 {
+    animation: fillLetters 1s ease-in-out forwards 2.5s;
+}
+
+@media screen and (max-width: 760px) {
+    .img4 {
+        margin-left: 20px;
+        width: 67%;
+        height: 67%;
+    }
+}
+/************** ABOUT PAGE *************/
+
+
+/*************** FOOTER ****************/
+footer {
+    min-height: 10.5vh;
+}
 /*************** FOOTER ****************/
 
 
@@ -595,7 +613,12 @@ main {
 }
 
 @keyframes fillLetters {                        /* Animation used to fill the letters of the main paragraph on the landing page */
-    from { fill: transparent }
+    from { fill: transparent; }
     to { fill: rgb(118, 120, 203); }
+}
+
+@keyframes fade {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 /*************** ANIMATION *************/
