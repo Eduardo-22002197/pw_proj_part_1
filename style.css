@@ -18,6 +18,13 @@ main {
     justify-content: center;
 }
 
+.row-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 .page-fade {
     animation: fade 1s 1 ease-in-out;
 }
@@ -114,6 +121,7 @@ main {
 }
 
 .img1, .img2, .img3 {
+    margin-bottom: 20px;
     animation: fillLetters 1s ease-in-out forwards 5.2s;
 }
 
@@ -226,17 +234,13 @@ main {
 }
 
 @media screen and (max-width: 1160px) {
-    main {
+    .row1 {
         flex-direction: column;
-    }
-
-    section {
-        margin-bottom: 20px;
     }
 }
 
 @media screen and (max-width: 760px) {
-    main section {
+    .row1 section {
         align-self: flex-start;
         justify-self: flex-start;
     }
