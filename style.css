@@ -604,6 +604,13 @@ main {
 /************** ABOUT PAGE *************/
 
 
+/************ MAIN BODY END ************/
+.page-fade {
+    animation: fade 1s 1 ease-in-out;
+}
+/************ MAIN BODY END ************/
+
+
 /*************** FOOTER ****************/
 footer {
     min-height: 10.5vh;
