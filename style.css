@@ -25,6 +25,13 @@ main {
     justify-content: center;
 }
 
+.column-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .page-fade {
     animation: fade 1s 1 ease-in-out;
 }
@@ -122,7 +129,7 @@ main {
 
 .img1, .img2, .img3 {
     margin-bottom: 20px;
-    animation: fillLetters 1s ease-in-out forwards 5.2s;
+    animation: fillLetters 1s ease-in-out forwards 5.4s;
 }
 
 .img1 path:nth-child(1) {                                       /* Landing Page Image 1 (WEB) */ 
@@ -134,103 +141,108 @@ main {
 .img1 path:nth-child(2) {
     stroke-dasharray: 282.6725769042969;
     stroke-dashoffset: 282.6725769042969;
-    animation: lineAnimation 2s ease-out forwards 0.2s;
+    animation: lineAnimation 2s ease-out forwards 0.4s;
 }
 
 .img1 path:nth-child(3) {
     stroke-dasharray: 357.25970458984375;
     stroke-dashoffset: 357.25970458984375;
-    animation: lineAnimation 2s ease-out forwards 0.4s;
+    animation: lineAnimation 2s ease-out forwards 0.6s;
 }
 
 .img2 path:nth-child(1) {                                       /* Landing Page Image 2 (NODE) */ 
     stroke-dasharray: 306.35498046875;
     stroke-dashoffset: 306.35498046875;
-    animation: lineAnimation 2s ease-out forwards 0.6s;
+    animation: lineAnimation 2s ease-out forwards 0.8s;
 }
 
 .img2 path:nth-child(2) {
     stroke-dasharray: 297.7874755859375;
     stroke-dashoffset: 297.7874755859375;
-    animation: lineAnimation 2s ease-out forwards 0.8s;
+    animation: lineAnimation 2s ease-out forwards 1s;
 }
 
 .img2 path:nth-child(3) {
     stroke-dasharray: 313.24169921875;
     stroke-dashoffset: 313.24169921875;
-    animation: lineAnimation 2s ease-out forwards 1s;
+    animation: lineAnimation 2s ease-out forwards 1.2s;
 }
 
 .img2 path:nth-child(4) {
     stroke-dasharray: 282.6719665527344;
     stroke-dashoffset: 282.6719665527344;
-    animation: lineAnimation 2s ease-out forwards 1.2s;
+    animation: lineAnimation 2s ease-out forwards 1.4s;
 }
 
 .img3 path:nth-child(1) {                                       /* Landing Page Image 3 (DEVELOPMENT) */ 
     stroke-dasharray: 313.24169921875;
     stroke-dashoffset: 313.24169921875;
-    animation: lineAnimation 2s ease-out forwards 1.4s;
+    animation: lineAnimation 2s ease-out forwards 1.6s;
 }
 
 .img3 path:nth-child(2) {                                       
     stroke-dasharray: 282.6719970703125;
     stroke-dashoffset: 282.6719970703125;
-    animation: lineAnimation 2s ease-out forwards 1.6s;
+    animation: lineAnimation 2s ease-out forwards 1.8s;
 }
 
 .img3 path:nth-child(3) {                                       
     stroke-dasharray: 222.39674377441406;
     stroke-dashoffset: 222.39674377441406;
-    animation: lineAnimation 2s ease-out forwards 1.8s;
+    animation: lineAnimation 2s ease-out forwards 2s;
 }
 
 .img3 path:nth-child(4) {                                       
     stroke-dasharray: 282.6719665527344;
     stroke-dashoffset: 282.6719665527344;
-    animation: lineAnimation 2s ease-out forwards 2s;
+    animation: lineAnimation 2s ease-out forwards 2.2s;
 }
 
 .img3 path:nth-child(5) {                                       
     stroke-dasharray: 167.9040069580078;
     stroke-dashoffset: 167.9040069580078;
-    animation: lineAnimation 2s ease-out forwards 2.2s;
+    animation: lineAnimation 2s ease-out forwards 2.4s;
 }
 
 .img3 path:nth-child(6) {                                       
     stroke-dasharray: 297.788330078125;
     stroke-dashoffset: 297.788330078125;
-    animation: lineAnimation 2s ease-out forwards 2.4s;
+    animation: lineAnimation 2s ease-out forwards 2.6s;
 }
 
 .img3 path:nth-child(7) {                                       
     stroke-dasharray: 262.11041259765625;
     stroke-dashoffset: 262.11041259765625;
-    animation: lineAnimation 2s ease-out forwards 2.6s;
+    animation: lineAnimation 2s ease-out forwards 2.8s;
 }
 
 .img3 path:nth-child(8) {                                       
     stroke-dasharray: 367.6080627441406;
     stroke-dashoffset: 367.6080627441406;
-    animation: lineAnimation 2s ease-out forwards 2.8s;
+    animation: lineAnimation 2s ease-out forwards 3s;
 }
 
 .img3 path:nth-child(9) {                                       
     stroke-dasharray: 282.6719970703125;
     stroke-dashoffset: 282.6719970703125;
-    animation: lineAnimation 2s ease-out forwards 3s;
+    animation: lineAnimation 2s ease-out forwards 3.2s;
 }
 
 .img3 path:nth-child(10) {                                       
     stroke-dasharray: 306.3549499511719;
     stroke-dashoffset: 306.3549499511719;
-    animation: lineAnimation 2s ease-out forwards 3.2s;
+    animation: lineAnimation 2s ease-out forwards 3.4s;
 }
 
 .img3 path:nth-child(11) {                                       
     stroke-dasharray: 182.30389404296875;
     stroke-dashoffset: 182.30389404296875;
-    animation: lineAnimation 2s ease-out forwards 3.4s;
+    animation: lineAnimation 2s ease-out forwards 3.6s;
+}
+
+.main-video {
+    margin-top: 30px;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 1160px) {
@@ -266,48 +278,48 @@ main {
 .img5 path:nth-child(1) {                                       /* History Page Image (HISTORY) */ 
     stroke-dasharray: 276.4800109863281;
     stroke-dashoffset: 276.4800109863281;
-    animation: lineAnimation 2s ease-out forwards;
+    animation: lineAnimation 2s ease-out forwards 0.2s;
 }
 
 .img5 path:nth-child(2) {                                       
     stroke-dasharray: 111.45600128173828;
     stroke-dashoffset: 111.45600128173828;
-    animation: lineAnimation 2s ease-out forwards 0.2s;
+    animation: lineAnimation 2s ease-out forwards 0.4s;
 }
 
 .img5 path:nth-child(3) {                                       
     stroke-dasharray: 253.23095703125;
     stroke-dashoffset: 253.23095703125;
-    animation: lineAnimation 2s ease-out forwards 0.4s;
+    animation: lineAnimation 2s ease-out forwards 0.6s;
 }
 
 .img5 path:nth-child(4) {                                       
     stroke-dasharray: 182.30401611328125;
     stroke-dashoffset: 182.30401611328125;
-    animation: lineAnimation 2s ease-out forwards 0.6s;
+    animation: lineAnimation 2s ease-out forwards 0.8s;
 }
 
 .img5 path:nth-child(5) {                                       
     stroke-dasharray: 297.78839111328125;
     stroke-dashoffset: 297.78839111328125;
-    animation: lineAnimation 2s ease-out forwards 0.8s;
+    animation: lineAnimation 2s ease-out forwards 1s;
 }
 
 .img5 path:nth-child(6) {                                       
     stroke-dasharray: 303.976806640625;
     stroke-dashoffset: 303.976806640625;
-    animation: lineAnimation 2s ease-out forwards 1s;
+    animation: lineAnimation 2s ease-out forwards 1.2s;
 }
 
 .img5 path:nth-child(7) {                                       
     stroke-dasharray: 194.73072814941406;
     stroke-dashoffset: 194.73072814941406;
-    animation: lineAnimation 2s ease-out forwards 1.2s;
+    animation: lineAnimation 2s ease-out forwards 1.4s;
 }
 
 .img5 {
     margin-bottom: 30px;
-    animation: fillLetters 1s ease-in-out forwards 2.9s;
+    animation: fillLetters 1s ease-in-out forwards 3.1s;
 }
 
 .timeline {                                                 /* The actual timeline (the vertical ruler) */
@@ -431,49 +443,49 @@ main {
 .img6 path:nth-child(1) {                                       /* Location Page Image (LOCATION) */ 
     stroke-dasharray: 167.90399169921875;
     stroke-dashoffset: 167.90399169921875;
-    animation: lineAnimation 2s ease-out forwards;
+    animation: lineAnimation 2s ease-out forwards 0.2s;
 }
 
 .img6 path:nth-child(2) {                                       
     stroke-dasharray: 297.78839111328125;
     stroke-dashoffset: 297.78839111328125;
-    animation: lineAnimation 2s ease-out forwards 0.2s;
+    animation: lineAnimation 2s ease-out forwards 0.4s;
 }
 
 .img6 path:nth-child(3) {                                       
     stroke-dasharray: 232.60548400878906;
     stroke-dashoffset: 232.60548400878906;
-    animation: lineAnimation 2s ease-out forwards 0.4s;
+    animation: lineAnimation 2s ease-out forwards 0.6s;
 }
 
 .img6 path:nth-child(4) {                                       
     stroke-dasharray: 268.34405517578125;
     stroke-dashoffset: 268.34405517578125;
-    animation: lineAnimation 2s ease-out forwards 0.6s;
+    animation: lineAnimation 2s ease-out forwards 0.8s;
 }
 
 .img6 path:nth-child(5) {                                       
     stroke-dasharray: 182.30401611328125;
     stroke-dashoffset: 182.30401611328125;
-    animation: lineAnimation 2s ease-out forwards 0.8s;
+    animation: lineAnimation 2s ease-out forwards 1s;
 }
 
 .img6 path:nth-child(6) {                                       
     stroke-dasharray: 111.45600891113281;
     stroke-dashoffset: 111.45600891113281;
-    animation: lineAnimation 2s ease-out forwards 1s;
+    animation: lineAnimation 2s ease-out forwards 1.2s;
 }
 
 .img6 path:nth-child(7) {                                       
     stroke-dasharray: 297.788330078125;
     stroke-dashoffset: 297.788330078125;
-    animation: lineAnimation 2s ease-out forwards 1.2s;
+    animation: lineAnimation 2s ease-out forwards 1.4s;
 }
 
 .img6 path:nth-child(8) {                                       
     stroke-dasharray: 306.35498046875;
     stroke-dashoffset: 306.35498046875;
-    animation: lineAnimation 2s ease-out forwards 1.4s;
+    animation: lineAnimation 2s ease-out forwards 1.6s;
 }
 
 .img6 {
@@ -482,7 +494,7 @@ main {
 }
 
 .location-map {
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 955px) {
@@ -506,47 +518,47 @@ main {
 .img7 path:nth-child(1) {                                       /* Contact Page Image (CONTACT) */ 
     stroke-dasharray: 232.60638427734375;
     stroke-dashoffset: 232.60638427734375;
-    animation: lineAnimation 2s ease-out forwards;
+    animation: lineAnimation 2s ease-out forwards 0.2s;
 }
 
 .img7 path:nth-child(2) {                                       
     stroke-dasharray: 297.78839111328125;
     stroke-dashoffset: 297.78839111328125;
-    animation: lineAnimation 2s ease-out forwards 0.2s;
+    animation: lineAnimation 2s ease-out forwards 0.4s;
 }
 
 .img7 path:nth-child(3) {                                       
     stroke-dasharray: 306.35498046875;
     stroke-dashoffset: 306.35498046875;
-    animation: lineAnimation 2s ease-out forwards 0.4s;
+    animation: lineAnimation 2s ease-out forwards 0.6s;
 }
 
 .img7 path:nth-child(4) {                                       
     stroke-dasharray: 182.30401611328125;
     stroke-dashoffset: 182.30401611328125;
-    animation: lineAnimation 2s ease-out forwards 0.6s;
+    animation: lineAnimation 2s ease-out forwards 0.8s;
 }
 
 .img7 path:nth-child(5) {                                       
     stroke-dasharray: 268.3441162109375;
     stroke-dashoffset: 268.3441162109375;
-    animation: lineAnimation 2s ease-out forwards 0.8s;
+    animation: lineAnimation 2s ease-out forwards 1s;
 }
 
 .img7 path:nth-child(6) {                                       
     stroke-dasharray: 232.60643005371094;
     stroke-dashoffset: 232.60643005371094;
-    animation: lineAnimation 2s ease-out forwards 1s;
+    animation: lineAnimation 2s ease-out forwards 1.2s;
 }
 
 .img7 path:nth-child(7) {                                       
     stroke-dasharray: 182.303955078125;
     stroke-dashoffset: 182.303955078125;
-    animation: lineAnimation 2s ease-out forwards 1.2s;
+    animation: lineAnimation 2s ease-out forwards 1.4s;
 }
 
 .img7 {
-    animation: fillLetters 1s ease-in-out forwards 2.9s;
+    animation: fillLetters 1s ease-in-out forwards 3.1s;
 }
 
 @media screen and (max-width: 760px) {
@@ -563,35 +575,35 @@ main {
 .img4 path:nth-child(1) {                                       /* About Page Image (ABOUT) */ 
     stroke-dasharray: 268.34405517578125;
     stroke-dashoffset: 268.34405517578125;
-    animation: lineAnimation 2s ease-out forwards;
+    animation: lineAnimation 2s ease-out forwards 0.2s;
 }
 
 .img4 path:nth-child(2) {                                       
     stroke-dasharray: 357.258544921875;
     stroke-dashoffset: 357.258544921875;
-    animation: lineAnimation 2s ease-out forwards 0.2s;
+    animation: lineAnimation 2s ease-out forwards 0.4s;
 }
 
 .img4 path:nth-child(3) {                                       
     stroke-dasharray: 297.7883605957031;
     stroke-dashoffset: 297.7883605957031;
-    animation: lineAnimation 2s ease-out forwards 0.4s;
+    animation: lineAnimation 2s ease-out forwards 0.6s;
 }
 
 .img4 path:nth-child(4) {                                        
     stroke-dasharray: 247.62527465820312;
     stroke-dashoffset: 247.62527465820312;
-    animation: lineAnimation 2s ease-out forwards 0.6s;
+    animation: lineAnimation 2s ease-out forwards 0.8s;
 }
 
 .img4 path:nth-child(5) {                                       
     stroke-dasharray: 182.30401611328125;
     stroke-dashoffset: 182.30401611328125;
-    animation: lineAnimation 2s ease-out forwards 0.8s;
+    animation: lineAnimation 2s ease-out forwards 1s;
 }
 
 .img4 {
-    animation: fillLetters 1s ease-in-out forwards 2.5s;
+    animation: fillLetters 1s ease-in-out forwards 2.7s;
 }
 
 @media screen and (max-width: 760px) {
@@ -602,13 +614,6 @@ main {
     }
 }
 /************** ABOUT PAGE *************/
-
-
-/************ MAIN BODY END ************/
-.page-fade {
-    animation: fade 1s 1 ease-in-out;
-}
-/************ MAIN BODY END ************/
 
 
 /*************** FOOTER ****************/
