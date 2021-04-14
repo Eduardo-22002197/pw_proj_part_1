@@ -240,19 +240,27 @@ main {
     animation: lineAnimation 2s ease-out forwards 3.6s;
 }
 
+.par1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
 .main-video {
     margin-top: 30px;
     border-radius: 10px;
 }
 
 @media screen and (max-width: 1160px) {
-    .row1 {
+    .landing-image-content {
         flex-direction: column;
     }
 }
 
 @media screen and (max-width: 760px) {
-    .row1 section {
+    .landing-image-content section {
         align-self: flex-start;
         justify-self: flex-start;
     }
@@ -267,8 +275,17 @@ main {
 
     .img3 {
         margin-left: 20px;
-        width: 75%;
-        height: 75%;
+        width: 85%;
+        height: 85%;
+    }
+
+    .par1 {
+        margin: 20px 0 0 20px;
+    }
+
+    .main-video {
+        width: 80%;
+        height: 350px;
     }
 }
 /************* LANDING PAGE ************/
@@ -489,12 +506,34 @@ main {
 }
 
 .img6 {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     animation: fillLetters 1s ease-in-out forwards 3.1s;
+}
+
+.map-text {
+    margin-right: 100px;
+}
+
+.map-text1 {
+    color: rgb(148, 140, 140);
+    font-size: 32px;
+    
 }
 
 .location-map {
     border-radius: 10px;
+}
+
+@media screen and (max-width: 1330px) {
+    .map-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .map-text {
+        margin: 0 0 20px 0;
+    }
 }
 
 @media screen and (max-width: 955px) {
@@ -561,6 +600,47 @@ main {
     animation: fillLetters 1s ease-in-out forwards 3.1s;
 }
 
+.contact-box {
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+form {
+    margin: 35px;
+}
+
+.input-field {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+
+.textarea-field {
+    height: 150px;
+    padding-top: 10px;
+}
+
+.btn {
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #47c35a;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 760px) {
     .img7 {
         margin-left: 20px;
@@ -619,6 +699,13 @@ main {
 /*************** FOOTER ****************/
 footer {
     min-height: 10.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 2, 88);
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 20px;
 }
 /*************** FOOTER ****************/
 
