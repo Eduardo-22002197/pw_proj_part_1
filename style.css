@@ -610,6 +610,17 @@ main {
     .location-map1 {
         margin-bottom: 30px;
     }
+
+    .images-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .images-content img:nth-child(1) {
+        margin-left: 63px;
+    }
 }
 
 @media screen and (max-width: 955px) {
@@ -617,11 +628,9 @@ main {
         max-width: 75%;
         max-height: 400px;
     }
-    .trySelf{
-        display: block;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+
+    .images-content img {
+        width: 70%;
     }
 }
 
