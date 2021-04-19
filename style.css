@@ -253,9 +253,51 @@ main {
     border-radius: 10px;
 }
 
+.awards {
+    margin-top: 60px;
+}
+
+.award1 {
+    margin-right: 100px;
+}
+
+.award2 {
+    margin-left: 100px;
+}
+
+.award1 figcaption {
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
+.award2 figcaption {
+    margin-top: 10px;
+    align-self: flex-end;
+}
+
 @media screen and (max-width: 1160px) {
     .landing-image-content {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .main-video {
+        width: 80%;
+        height: 350px;
+    }
+
+    .awards {
+        margin-top: 35px;
+        flex-direction: column;
+    }
+
+    .award1, .award2 {
+        margin: 30px 0 0 0;
+    }
+
+    .award1.award2 figcaption {
+        justify-self: center;
     }
 }
 
@@ -264,9 +306,7 @@ main {
         align-self: flex-start;
         justify-self: flex-start;
     }
-}
 
-@media screen and (max-width: 760px) {
     .img1, .img2 {
         margin-left: 20px;
         width: 67%;
@@ -715,8 +755,17 @@ main {
     animation: fillLetters 1s ease-in-out forwards 3.1s;
 }
 
+.contact-par {
+    color: white;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+    max-width: 1120px;
+    margin-bottom: 30px
+}
+
 .contact-box {
-    margin-top: 35px;
     width: 700px;
     display: flex;
     flex-direction: column;
@@ -757,6 +806,18 @@ main {
     cursor: pointer;
 }
 
+@media screen and (max-width: 1190px) {
+    .contact-par {
+        max-width: 890px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .contact-par {
+        max-width: 650px;
+    }
+}
+
 @media screen and (max-width: 790px) {
     .contact-box {
         width: 80%;
@@ -774,6 +835,16 @@ main {
         margin-left: 20px;
         width: 75%;
         height: 75%;
+    }
+
+    .contact-par {
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .contact-par {
+        max-width: 370px;
     }
 }
 /************ CONTACT PAGE *************/
@@ -812,6 +883,51 @@ main {
 
 .img4 {
     animation: fillLetters 1s ease-in-out forwards 2.7s;
+}
+
+.wordcloud {
+    margin: 30px 0 20px 0;
+}
+
+.big-table {
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 0;
+    width: 70%;
+}
+
+.big-table th, td {
+    padding: 0px;
+}
+
+.big-table th {
+    text-align: center;
+    background-color: rgb(108, 110, 228);
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.big-table td {
+    background-color: rgb(118, 120, 203);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.big-table tr {
+    opacity: 0.8;
+}
+
+.big-table tr:hover {
+    opacity: 1;
+}
+
+.big-table td img {
+    width: 20px;
+    filter: invert(100%);
 }
 
 @media screen and (max-width: 760px) {

@@ -48,64 +48,72 @@
             </section>
 
             <section>
-                <svg width = "300">
+                <svg class = "wordcloud" width = "300">
                     <image href="images/wordcloud2.png" width = 100% height = 100%></image>
                     <a href="index.html">
                         <polygon opacity="0.0" points="30,13 134,1 143,20 52,43"></polygon>
                     </a>
+
                     <a href="history.html">
                         <polygon opacity="0.0" points="180,67 264,67 230,120 186,120"></polygon>
                     </a>
+
                     <a href="location.html">
                         <polygon opacity="0.0" points="24,60 100,60 94,112 21,113"></polygon>
                     </a>
+
                     <a href="contact.html">
                         <polygon opacity="0.0" points="74,110 216,110 222,185 74,187"></polygon>
                     </a>
                 </svg>
             </section>
 
-            <section>
-                <h3>Técnicas Usadas</h3>
-                <section title="HTML 5">
-                    <p style="margin-left: 50px;">Queres escrever algo ?</p>
-                    <table border = "1" cellpadding = "10%">
-                        <thead>
-                            <tr>
-                                <th>Caracteristicas</th>
-                                <th>Elementos/técnicas</th>
-                                <th>Exemplo</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Layouts</td>
-                                <td>Usou-se o CSS Flexbox para a construção de layouts</td>
-                                <td>Usado em todas as páginas</td>
-                            </tr>
-                            <tr>
-                                <td>Responsividade</td>
-                                <td>Foram usadas media queries que adaptam o layout para telemóvel e PC consoante o tamanho da janela</td>
-                                <td>Usado em todas as páginas</td>
-                            </tr>
-                            <tr>
-                                <td>Etiquetas</td>
-                                <td>Usamos o main, header, footer, nav, section</td>
-                                <td>Usado em todas as páginas</td>
-                            </tr>
-                            <tr>
-                                <td>Animações</td>
-                                <td>Foram feitas animações usando o keyframe que permitem preencher os logotipos das páginas criados por nós, outa que permite fazer um efeito de fade na página</td>
-                                <td>Usado em todas as páginas</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
+            <section class = "column-content">
+                <table class = "big-table">
+                    <thead>
+                        <tr>
+                            <th> Caracteristicas </th>
+                            <th> Elementos/Técnicas </th>
+                            <th> Exemplos </th>
+                        </tr>
+                    </thead>
 
+                    <tbody>
+                        <tr>
+                            <td> Layout </td>
+                            <td> Foi utilizado o CSS Flexbox na construção das páginas. o CSS Grid também está presente em algumas.  </td>
+                            <td> Posição de todos os elementos do website. </td>
+                        </tr>
+
+                        <tr>
+                            <td> Responsividade </td>
+                            <td> Foram utilizadas media queries que adaptam o layout para o telemóvel ou o PC, conforme o tamanho da janela. </td>
+                            <td> Todas as media queries do website. </td>
+                        </tr>
+
+                        <tr>
+                            <td> Seletores </td>
+                            <td> Foram usados diversos tipos de seletores CSS no website. </td>
+                            <td><i>.class</i>, :nth-child(n), :hover, <i>.class1.class2</i>, <i>element, element</i>, entre outros</td>
+                        </tr>
+
+                        <tr>
+                            <td> Etiquetas </td>
+                            <td> Foram usadas quase todas as etiquetas sugeridas, nas diversas páginas. </td>
+                            <td><i> header, main, footer, section, aside, figure, svg, table, thead, tbody, tr, td, entre outras. </i></td>
+                        </tr>
+
+                        <tr>
+                            <td> Animações </td>
+                            <td> Foram feitas diversas animações, aplicadas em todas as páginas do nosso website. </td>
+                            <td> Animação do aparecimento dos títulos das páginas, do preenchimento dos mesmos e o efeito de fade ao carregar a página. </td>
+                        </tr>
+                    </tbody>
+                </table>
         </main>
 
         <footer>
-            <p> &copy; Web Node Development </p>
+            <p> &copy; Web Node Development 2021 </p>
         </footer>   
     </body>
 </html>
